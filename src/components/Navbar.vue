@@ -22,12 +22,12 @@ export default {
 #### CSS
 
 <style scoped>
-/* Contenedor principal */
+
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinea los elementos en el centro horizontalmente */
-  padding: 10px; /* Espaciado alrededor del contenido */
+  align-items: center; 
+  padding: 10px; 
 }
 
 /* Título de la página */
