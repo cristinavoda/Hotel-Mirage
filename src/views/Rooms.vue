@@ -21,7 +21,6 @@
         <input type="email" id="email" class="border p-2">
         
       </div>
-      </form>
 </template>
 
 <script>
