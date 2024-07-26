@@ -26,11 +26,10 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   align-items: center; 
-=======
+
   align-items: center;
->>>>>>> e37fdb0dbf5dd50c42713342c006eb6c23cb41e3
+
   padding: 10px; 
 }
 
