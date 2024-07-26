@@ -19,49 +19,49 @@ export default {
 };
 </script>
 
-#### CSS
+
 
 <style scoped>
-/* Contenedor principal */
+
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinea los elementos en el centro horizontalmente */
-  padding: 10px; /* Espaciado alrededor del contenido */
+  align-items: center;
+  padding: 10px; 
 }
 
-/* Título de la página */
+
 .title {
-  margin: 0; /* Elimina el margen por defecto */
-  padding: 10px 0; /* Espaciado interno */
-  color: #333; /* Color del texto */
+  margin: 0; 
+  padding: 10px 0; 
+  color: #333; 
 }
 
-/* Estilos de la barra de navegación */
+
 .navbar {
-  background-color: rgb(255,0,0); /* Color de fondo de la barra de navegación */
-  padding: 10px 20px; /* Espaciado alrededor del contenido */
-  border: 2px solid white; /* Borde sólido blanco */
-  width: 100%; /* Ancho completo */
+  background-color: rgb(255,0,0); 
+  padding: 10px 20px; 
+  border: 2px solid white; 
+  width: 100%; 
 }
 
 .nav-list {
-  list-style: none; /* Elimina los puntos de la lista */
-  display: flex; /* Usa Flexbox para la lista */
-  flex-direction: row; /* Alinea los elementos en fila horizontal */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  gap: 10px; /* Espacio entre los elementos */
+  list-style: none; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  gap: 10px; 
   margin: 0;
   padding: 0;
 }
 
 .nav-link {
-  color: white; /* Color del texto */
-  text-decoration: none; /* Elimina el subrayado */
-  font-size: 16px; /* Tamaño de la fuente */
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
 }
 
 .nav-link:hover {
-  text-decoration: underline; /* Subrayado en el hover */
+  text-decoration: underline; 
 }
 </style>
