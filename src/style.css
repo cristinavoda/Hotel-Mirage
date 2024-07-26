@@ -1,0 +1,238 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {background-image: url(https://images.unsplash.com/photo-1599484233778-5bdc6b69bbe3?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=chan-lee-sGXkVOj5DtM-unsplash.jpg);
+  background-size:cover;
+  background-position: center;
+  position:absolute;
+  top:0;
+  right: 0;
+  bottom:0;
+  left:20%;
+  z-index : -1;
+
+  
+
+
+@media (max-width: 868px) {
+  .main-container {flex-direction: column;
+    align-items: center;
+    
+  }}
+  .content {
+    max-width: 90%;
+    margin: 10px;
+  }}
+
+  .navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px; /* Espaciado alrededor del contenido */
+    border-right: 2px solid white; /* Borde sólido blanco a la derecha */
+    width: 200px; /* Ancho fijo para la barra de navegación */
+    height: 100vh; /* Altura completa de la ventana */
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho */
+  }
+  .navbar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid white; /* Borde en la parte inferior para móvil */
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content {
+    max-width: 90%;
+    margin: 10px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .form-input, .form-button {
+    font-size: 1.2rem;
+  }
+
+
+  .nav-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1rem; /* Tamaño de la fuente relativo */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Subrayado en el hover */
+  }
+  
+  /* Contenido a la derecha */
+  .content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    margin: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 500px; /* Ancho máximo */
+    flex-grow: 1; /* Asegura que ocupe el espacio restante */
+  }
+  
+.container {
+  color: #c70e2d;
+  margin: 0;
+  display: inline;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 10px; 
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+h1 {
+  font-size: 5%7;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #3ba71098;
+}
+button:focus,
+
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  
+  padding: 1cap
+  ;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #295d8b;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #74ff998e;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.navbar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  padding: 10px 20px; /* Espaciado alrededor del contenido */
+  border: 2px solid white; /* Borde sólido blanco */
+}
+
+.nav-list {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex; /* Usa Flexbox para la lista */
+  flex-direction: row; /* Alinea los elementos en fila horizontal */
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+  gap: 10px; /* Espacio entre los elementos */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Elimina el subrayado */
+  
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Subrayado en el hover */.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    margin: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 300px; /* Ancho máximo */
+    flex-grow: 1; /* Asegura que ocupe el espacio restante */
+  }
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    margin: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 50px; /* Ancho máximo */
+    flex-grow: 1; /* Asegura que ocupe el espacio restante */
+  }
+  
+  .form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #c70e2d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #a00e2d;
+  }
+}
