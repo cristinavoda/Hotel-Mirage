@@ -16,11 +16,12 @@
   
   a {
     font-weight: 500;
-    color: #646cff;
+    color: #891133;
     text-decoration: inherit;
+    font-size:4rem;
   }
   a:hover {
-    color: #535bf2;
+    color: #181090;
   }
   
   body {background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ca/3c/c0/vistas-de-las-piscinas.jpg?w=2100&h=1400&s=1);
@@ -33,6 +34,16 @@
     left:20%;
     z-index : -1;
   background-color: #535bf2;
+  .title-large {
+    font-size: 4rem; 
+    font-weight: bold; 
+    color: #b40b40; 
+    text-align: center; 
+    margin: 0 0; 
+    border-style:solid; 
+    border-width:1cqw ;
+    border: spacing 3cap;
+  }
     
   
   
@@ -47,18 +58,18 @@
     }}
   
     .navbar {
-      background-color: #333; /* Color de fondo de la barra de navegación */
-      padding: 10px; /* Espaciado alrededor del contenido */
-      border-right: 2px solid white; /* Borde sólido blanco a la derecha */
-      width: 200px; /* Ancho fijo para la barra de navegación */
-      height: 100vh; /* Altura completa de la ventana */
-      box-sizing: border-box; /* Asegura que el padding no aumente el ancho */
+      background-color: #333; 
+      padding: 10px; 
+      border-right: 2px solid white; 
+      width: 1cqw; 
+      height: 100vh; 
+      box-sizing: border-box; 
     }
     .navbar {
       width: 100%;
       height: auto;
       border-right: none;
-      border-bottom: 2px solid white; /* Borde en la parte inferior para móvil */
+      border-bottom: 2px solid white; 
     }
   
     .nav-list {
@@ -81,7 +92,7 @@
   
   
     .nav-list {
-      list-style: none; /* Elimina los puntos de la lista */
+      list-style: none; 
       padding: 0;
       margin: 0;
     }
@@ -91,13 +102,14 @@
     }
     
     .nav-link {
-      color: white; /* Color del texto */
+      color: rgba(180, 88, 31, 0.662); 
       text-decoration: none; 
       font-size: 1rem; 
     }
     
     .nav-link:hover {
       text-decoration: underline;
+      color: #000;
     }
     
     
@@ -117,7 +129,7 @@
     flex-direction: column; 
     align-items: flex-start; 
     gap: 10px; 
-    min-width: 320px;
+    min-width:0cap;
     min-height: 100vh;
   }
   
@@ -125,6 +137,8 @@
   h1 {
     font-size: 5%7;
     line-height: 1.1;
+    
+
   }
   
   button {
@@ -134,7 +148,7 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
+    background-color: #0e30726d;
     cursor: pointer;
     transition: border-color 0.25s;
   }
@@ -181,7 +195,7 @@
   .nav-list {
     list-style: none; 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
     align-items: center; 
     gap: 10px; 
     margin: 0;
@@ -189,31 +203,31 @@
   }
   
   .nav-link {
-    color: white; /* Color del texto */
-    text-decoration: none; /* Elimina el subrayado */
+    color: white; 
+    text-decoration: none; 
     
-    font-size: 16px; /* Tamaño de la fuente */
+    font-size: 16px; 
   }
   
   .nav-link:hover {
-    text-decoration: underline; /* Subrayado en el hover */.form {
+    text-decoration: underline; .form {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
-      padding: 20px; /* Espaciado alrededor del contenido */
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 20px; 
       margin: 20px;
-      border-radius: 8px; /* Bordes redondeados */
-      max-width: 300px; /* Ancho máximo */
-      flex-grow: 1; /* Asegura que ocupe el espacio restante */
+      border-radius: 8px; 
+      max-width: 300px; 
+      flex-grow: 1; 
     }
     .form-container {
-      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
-      padding: 20px; /* Espaciado alrededor del contenido */
+      background-color: rgba(146, 194, 49, 0.8); 
+      padding: 1%; 
       margin: 20px;
-      border-radius: 8px; /* Bordes redondeados */
-      max-width: 50px; /* Ancho máximo */
-      flex-grow: 1; /* Asegura que ocupe el espacio restante */
+      border-radius: 8px;
+      max-width: 50px; 
+      flex-grow: 1; 
     }
     
     .form-input {
@@ -238,6 +252,13 @@
     }
   }
   .footer {
-    background-image: url('/textura-footer.png');
-    background-size: cover;
-}
+   
+      background-color: rgba(76, 0, 255, 0.445);
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      text-align: left;
+    }

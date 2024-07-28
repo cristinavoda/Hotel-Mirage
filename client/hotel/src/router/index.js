@@ -2,8 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Calendario from '../components/Calendario.vue';  
 import Rooms from '../components/Rooms.vue';  
-import Navbar from '../components/Navbar.vue';
-import Footer from '../components/Footer.vue';
+
 
 const routes = [
   {
